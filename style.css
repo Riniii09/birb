@@ -1,0 +1,122 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2a9d8f;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: #264653;
+    margin: 0;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.input-area {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    background-color: #fafafa;
+}
+
+.upload-section, .record-section {
+    margin: 1rem 0;
+}
+
+.separator {
+    font-weight: bold;
+    color: #aaa;
+    margin: 1rem 0;
+}
+
+input[type="file"] {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    border-radius: 4px;
+    width: calc(100% - 1rem);
+}
+
+button {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #268a7e;
+    transform: translateY(-2px);
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    transform: none;
+}
+
+#recording-status {
+    margin-top: 0.5rem;
+    color: #e76f51;
+    font-weight: bold;
+}
+
+#result-content {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+#result-content h2 {
+    color: #2a9d8f;
+    border-bottom: 2px solid #f0f4f8;
+    padding-bottom: 0.5rem;
+}
+
+#result-content h3 {
+    color: #264653;
+    margin-top: 1.5rem;
+}
+
+#back-btn {
+    background-color: #fca311;
+}
+
+#back-btn:hover {
+    background-color: #e8940c;
+}
